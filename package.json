@@ -1,0 +1,29 @@
+{
+  "name": "twolosttourists",
+  "version": "1.0.0",
+  "description": "RV Adventures",
+  "main": "index.js",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/StephanieF/twolosttourists.git"
+  },
+  "keywords": [
+    "Keywords",
+    "here"
+  ],
+  "author": "Stephanie Fuda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanieF/twolosttourists/issues"
+  },
+  "homepage": "https://github.com/StephanieF/twolosttourists#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
